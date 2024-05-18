@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "mev_example" {
-  bucket = "mev-tf-aws-s3-bucket"
+  bucket = "mev-tf-aws-s3-bucket-test"
 
   tags = {
     Name        = "mev-tf-aws-s3-bucket"
