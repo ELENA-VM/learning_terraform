@@ -1,3 +1,12 @@
+resource "aws_s3_bucket" "mev_example" {
+  bucket = "mev-tf-aws-s3-bucket"
+
+  tags = {
+    Name        = "mev-tf-aws-s3-bucket"
+#    Environment = "Dev"
+  }
+}
+
 #data "aws_ami" "app_ami" {
 #  most_recent = true
 
